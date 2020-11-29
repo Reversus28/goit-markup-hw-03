@@ -155,7 +155,7 @@ img {
   text-align: center;
 }
 
-.hero .hero-title {
+.hero > .hero-title {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -169,7 +169,7 @@ img {
   text-transform: uppercase;
 }
 
-.hero .button {
+.hero > .button {
   padding: 10px 32px;
 
   color: #ffffff;
@@ -365,9 +365,9 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.section-filter .filter-item:focus {
+.section-filter .button-item:focus {
+  color: #ffffff;
   background-color: var(--accent-color);
-  outline: none;
 }
 
 /*=========== END FILTERL ===========*/
@@ -413,7 +413,6 @@ img {
 .project-card .card-description {
   font-size: 16px;
   line-height: 1.9;
-
   color: var(--secondary-text-color);
 }
 /*=========== END PROJECT-CARD ===========*/
